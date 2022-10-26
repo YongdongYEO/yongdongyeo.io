@@ -1,0 +1,44 @@
+# site settings
+title: Yongdong YEO
+subtitle: Cryptography
+email: yongdong@snu.ac.kr
+description: A graduate student who is struggling to get Ph.D degree.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 441, Bldg. 27, 1, Gwanak-ro, Gwanak-gu,
+city:  Seoul,
+# state: TN
+# zip_code: 55555
+country:  Republic of Korea
+phone: +82 02-880-6272
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 2
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/yongdongyeo
+  GitLab:
+  # Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram: Temporarily deactivated by me
+  # LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  # Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
